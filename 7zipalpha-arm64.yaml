@@ -1,0 +1,25 @@
+Id: 7zip.7zipAlpha
+Name: 7Zip - Alpha
+AppMoniker: 7zip-alpha
+Version: 21.01-alpha
+Publisher: 7zip
+Author: 7zip
+License: Copyright (C) 1999-2021 Igor Pavlov. - GNU LGPL
+LicenseUrl: https://www.7-zip.org/license.txt
+MinOSVersion: 10.0.0.0
+Description: Free and open source file archiver with a high compression ratio.
+Homepage: https://www.7-zip.org/
+Tags: 7zip, compression, file compression, utility, tool, zip
+FileExtensions: 7z, zip, rar, tar, gz, wim
+Commands: 7z
+InstallerType: exe
+Switches:
+  Silent: /S
+  SilentWithProgress: /S
+  InstallLocation: /D=<INSTALLPATH>
+Installers:
+  - Arch: arm64
+    Url: https://www.7-zip.org/a/7z2101-arm64.exe
+    Sha256: 9F7D8F02782595DB06687B6DD41DB8603079A3B345E9674DB4660ACC18241030
+    Scope: machine
+ManifestVersion: 0.1.0
